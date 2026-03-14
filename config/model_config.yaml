@@ -1,0 +1,97 @@
+# Model Hyperparameter Configuration
+
+baseline:
+  type: "dummy"
+
+linear:
+  type: "ridge"
+  alpha: 1.0
+  fit_intercept: true
+
+lightgbm:
+  regression:
+    n_estimators: 300
+    learning_rate: 0.05
+    num_leaves: 31
+    max_depth: -1
+    min_child_samples: 20
+    subsample: 0.8
+    colsample_bytree: 0.8
+    reg_alpha: 0.1
+    reg_lambda: 0.1
+    random_state: 42
+    verbose: -1
+  classification:
+    n_estimators: 300
+    learning_rate: 0.05
+    num_leaves: 31
+    max_depth: -1
+    min_child_samples: 20
+    subsample: 0.8
+    colsample_bytree: 0.8
+    reg_alpha: 0.1
+    reg_lambda: 0.1
+    random_state: 42
+    verbose: -1
+
+xgboost:
+  regression:
+    n_estimators: 300
+    learning_rate: 0.05
+    max_depth: 6
+    min_child_weight: 5
+    subsample: 0.8
+    colsample_bytree: 0.8
+    gamma: 0.1
+    reg_alpha: 0.1
+    reg_lambda: 1.0
+    random_state: 42
+    verbosity: 0
+  classification:
+    n_estimators: 300
+    learning_rate: 0.05
+    max_depth: 6
+    min_child_weight: 5
+    subsample: 0.8
+    colsample_bytree: 0.8
+    gamma: 0.1
+    reg_alpha: 0.1
+    reg_lambda: 1.0
+    random_state: 42
+    verbosity: 0
+
+# Feature Groups
+features:
+  price:
+    - "open"
+    - "high"
+    - "low"
+    - "close"
+    - "adj_close"
+    - "return_1d"
+    - "return_5d"
+    - "return_20d"
+    - "log_return_1d"
+  volume:
+    - "volume"
+    - "volume_ma5"
+    - "volume_ma20"
+    - "volume_ratio"
+  technical:
+    - "sma_5"
+    - "sma_20"
+    - "sma_60"
+    - "ema_12"
+    - "ema_26"
+    - "macd"
+    - "macd_signal"
+    - "macd_hist"
+    - "rsi_14"
+    - "bb_upper"
+    - "bb_lower"
+    - "bb_width"
+    - "atr_14"
+    - "stoch_k"
+    - "stoch_d"
+    - "cci_20"
+    - "obv"

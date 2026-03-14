@@ -1,0 +1,43 @@
+# Application Settings
+app:
+  name: "AI Quant Research Sandbox for Taiwan Stocks"
+  version: "1.0.0"
+  debug: false
+
+# Data Settings
+data:
+  default_ticker: "2330.TW"
+  default_start_date: "2020-01-01"
+  default_end_date: "2024-12-31"
+  cache_dir: "data/cache"
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  cache_ttl_hours: 24
+
+# Model Settings
+model:
+  default_task: "regression"      # regression or classification
+  default_horizon: 1              # 1 or 5 days
+  default_model: "lightgbm"       # baseline, linear, lightgbm, xgboost
+  test_size: 0.2
+  random_state: 42
+
+# Backtest Settings
+backtest:
+  initial_capital: 1000000        # NTD
+  commission_rate: 0.001425       # 0.1425% Taiwan stock brokerage fee
+  tax_rate: 0.003                 # 0.3% Taiwan stock transaction tax (sell only)
+  slippage: 0.001                 # 0.1% slippage assumption
+
+# Report Settings
+report:
+  output_dir: "artifacts/reports"
+  charts_dir: "artifacts/charts"
+  default_mode: "auto"            # auto, llm, template
+
+# LLM Settings
+llm:
+  provider: "groq"
+  model: "llama-3.3-70b-versatile"
+  temperature: 0.7
+  max_tokens: 1200

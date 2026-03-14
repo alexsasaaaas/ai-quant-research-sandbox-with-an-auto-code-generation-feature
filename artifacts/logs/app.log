@@ -1,0 +1,1516 @@
+2026-03-14 17:14:49 | INFO     | src.data.tw_stock_api | Downloading 2330.TW from 2026-01-01 to 2026-03-14
+2026-03-14 17:14:50 | INFO     | src.data.tw_stock_api | Cached to data\cache\2330.TW_2026-01-01_2026-03-14.csv
+2026-03-14 17:14:50 | INFO     | src.data.preprocess | Cleaned OHLCV: 43 rows remaining
+2026-03-14 17:14:50 | INFO     | src.data.loader | Loaded 43 rows for 2330.TW [2026-01-01 ~ 2026-03-14]
+2026-03-14 17:14:50 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 17:14:50 | INFO     | src.models.trainer | After dropping NaN: 0 rows (from 43)
+2026-03-14 17:14:50 | INFO     | src.models.trainer | Train: 0 rows | Test: 0 rows
+2026-03-14 17:19:10 | INFO     | src.data.tw_stock_api | Downloading 2330.TW from 2026-03-01 to 2026-03-14
+2026-03-14 17:19:11 | INFO     | src.data.tw_stock_api | Cached to data\cache\2330.TW_2026-03-01_2026-03-14.csv
+2026-03-14 17:19:11 | INFO     | src.data.preprocess | Cleaned OHLCV: 10 rows remaining
+2026-03-14 17:19:11 | INFO     | src.data.loader | Loaded 10 rows for 2330.TW [2026-03-01 ~ 2026-03-14]
+2026-03-14 17:19:11 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 17:29:41 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2026-03-01_2026-03-14.csv
+2026-03-14 17:29:41 | INFO     | src.data.preprocess | Cleaned OHLCV: 10 rows remaining
+2026-03-14 17:29:41 | INFO     | src.data.loader | Loaded 10 rows for 2330.TW [2026-03-01 ~ 2026-03-14]
+2026-03-14 17:29:41 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 17:30:00 | INFO     | src.data.tw_stock_api | Downloading 2330.TW from 2025-03-01 to 2026-03-14
+2026-03-14 17:30:01 | INFO     | src.data.tw_stock_api | Cached to data\cache\2330.TW_2025-03-01_2026-03-14.csv
+2026-03-14 17:30:01 | INFO     | src.data.preprocess | Cleaned OHLCV: 251 rows remaining
+2026-03-14 17:30:01 | INFO     | src.data.loader | Loaded 251 rows for 2330.TW [2025-03-01 ~ 2026-03-14]
+2026-03-14 17:30:01 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 17:30:01 | INFO     | src.models.trainer | After dropping NaN: 187 rows (from 187)
+2026-03-14 17:30:01 | INFO     | src.models.trainer | Train: (149, 35) | Test: (38, 35)
+2026-03-14 17:30:02 | INFO     | src.models.trainer | Trained [lightgbm] for task=[regression]
+2026-03-14 17:32:50 | INFO     | src.backtest.engine | Backtest [Prediction-based]: return=74.2%, sharpe=3.26, maxdd=-8.2%, trades=14
+2026-03-14 17:36:52 | INFO     | src.data.tw_stock_api | Downloading 2330.TW from 2024-03-21 to 2026-03-14
+2026-03-14 17:36:53 | INFO     | src.data.tw_stock_api | Cached to data\cache\2330.TW_2024-03-21_2026-03-14.csv
+2026-03-14 17:36:53 | INFO     | src.data.preprocess | Cleaned OHLCV: 478 rows remaining
+2026-03-14 17:36:53 | INFO     | src.data.loader | Loaded 478 rows for 2330.TW [2024-03-21 ~ 2026-03-14]
+2026-03-14 17:36:53 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 17:36:53 | INFO     | src.models.trainer | After dropping NaN: 414 rows (from 414)
+2026-03-14 17:36:53 | INFO     | src.models.trainer | Train: (331, 35) | Test: (83, 35)
+2026-03-14 17:36:54 | INFO     | src.models.trainer | Trained [lightgbm] for task=[regression]
+2026-03-14 17:39:11 | INFO     | src.data.tw_stock_api | Downloading 2330.TW from 2024-03-07 to 2026-03-14
+2026-03-14 17:39:13 | INFO     | src.data.tw_stock_api | Cached to data\cache\2330.TW_2024-03-07_2026-03-14.csv
+2026-03-14 17:39:13 | INFO     | src.data.preprocess | Cleaned OHLCV: 488 rows remaining
+2026-03-14 17:39:13 | INFO     | src.data.loader | Loaded 488 rows for 2330.TW [2024-03-07 ~ 2026-03-14]
+2026-03-14 17:39:13 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 17:39:13 | INFO     | src.models.trainer | After dropping NaN: 424 rows (from 424)
+2026-03-14 17:39:13 | INFO     | src.models.trainer | Train: (339, 35) | Test: (85, 35)
+2026-03-14 17:39:14 | INFO     | src.models.trainer | Trained [lightgbm] for task=[regression]
+2026-03-14 17:39:56 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2024-03-07_2026-03-14.csv
+2026-03-14 17:39:56 | INFO     | src.data.preprocess | Cleaned OHLCV: 488 rows remaining
+2026-03-14 17:39:56 | INFO     | src.data.loader | Loaded 488 rows for 2330.TW [2024-03-07 ~ 2026-03-14]
+2026-03-14 17:39:56 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 17:40:27 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2024-03-07_2026-03-14.csv
+2026-03-14 17:40:27 | INFO     | src.data.preprocess | Cleaned OHLCV: 488 rows remaining
+2026-03-14 17:40:27 | INFO     | src.data.loader | Loaded 488 rows for 2330.TW [2024-03-07 ~ 2026-03-14]
+2026-03-14 17:40:27 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 17:40:28 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2024-03-07_2026-03-14.csv
+2026-03-14 17:40:28 | INFO     | src.data.preprocess | Cleaned OHLCV: 488 rows remaining
+2026-03-14 17:40:28 | INFO     | src.data.loader | Loaded 488 rows for 2330.TW [2024-03-07 ~ 2026-03-14]
+2026-03-14 17:40:28 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 17:40:29 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2024-03-07_2026-03-14.csv
+2026-03-14 17:40:29 | INFO     | src.data.preprocess | Cleaned OHLCV: 488 rows remaining
+2026-03-14 17:40:29 | INFO     | src.data.loader | Loaded 488 rows for 2330.TW [2024-03-07 ~ 2026-03-14]
+2026-03-14 17:40:30 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 17:40:30 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2024-03-07_2026-03-14.csv
+2026-03-14 17:40:30 | INFO     | src.data.preprocess | Cleaned OHLCV: 488 rows remaining
+2026-03-14 17:40:30 | INFO     | src.data.loader | Loaded 488 rows for 2330.TW [2024-03-07 ~ 2026-03-14]
+2026-03-14 17:40:30 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 17:40:36 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2024-03-07_2026-03-14.csv
+2026-03-14 17:40:36 | INFO     | src.data.preprocess | Cleaned OHLCV: 488 rows remaining
+2026-03-14 17:40:36 | INFO     | src.data.loader | Loaded 488 rows for 2330.TW [2024-03-07 ~ 2026-03-14]
+2026-03-14 17:40:36 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 17:40:51 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2024-03-07_2026-03-14.csv
+2026-03-14 17:40:51 | INFO     | src.data.preprocess | Cleaned OHLCV: 488 rows remaining
+2026-03-14 17:40:51 | INFO     | src.data.loader | Loaded 488 rows for 2330.TW [2024-03-07 ~ 2026-03-14]
+2026-03-14 17:40:51 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 17:41:06 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2024-03-07_2026-03-14.csv
+2026-03-14 17:41:06 | INFO     | src.data.preprocess | Cleaned OHLCV: 488 rows remaining
+2026-03-14 17:41:06 | INFO     | src.data.loader | Loaded 488 rows for 2330.TW [2024-03-07 ~ 2026-03-14]
+2026-03-14 17:41:06 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 17:41:24 | INFO     | src.data.tw_stock_api | Downloading 2330.TW from 2023-03-15 to 2026-03-14
+2026-03-14 17:41:25 | INFO     | src.data.tw_stock_api | Cached to data\cache\2330.TW_2023-03-15_2026-03-14.csv
+2026-03-14 17:41:25 | INFO     | src.data.preprocess | Cleaned OHLCV: 725 rows remaining
+2026-03-14 17:41:25 | INFO     | src.data.loader | Loaded 725 rows for 2330.TW [2023-03-15 ~ 2026-03-14]
+2026-03-14 17:41:25 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 17:41:25 | INFO     | src.models.trainer | After dropping NaN: 661 rows (from 661)
+2026-03-14 17:41:25 | INFO     | src.models.trainer | Train: (528, 35) | Test: (133, 35)
+2026-03-14 17:41:26 | INFO     | src.models.trainer | Trained [xgboost] for task=[regression]
+2026-03-14 17:42:02 | INFO     | src.data.tw_stock_api | Downloading 2330.TW from 2024-03-14 to 2026-03-14
+2026-03-14 17:42:04 | INFO     | src.data.tw_stock_api | Cached to data\cache\2330.TW_2024-03-14_2026-03-14.csv
+2026-03-14 17:42:04 | INFO     | src.data.preprocess | Cleaned OHLCV: 483 rows remaining
+2026-03-14 17:42:04 | INFO     | src.data.loader | Loaded 483 rows for 2330.TW [2024-03-14 ~ 2026-03-14]
+2026-03-14 17:42:04 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 17:42:04 | INFO     | src.models.trainer | After dropping NaN: 419 rows (from 419)
+2026-03-14 17:42:04 | INFO     | src.models.trainer | Train: (335, 35) | Test: (84, 35)
+2026-03-14 17:42:04 | INFO     | src.models.trainer | Trained [linear] for task=[regression]
+2026-03-14 17:42:51 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2024-03-14_2026-03-14.csv
+2026-03-14 17:42:51 | INFO     | src.data.preprocess | Cleaned OHLCV: 483 rows remaining
+2026-03-14 17:42:51 | INFO     | src.data.loader | Loaded 483 rows for 2330.TW [2024-03-14 ~ 2026-03-14]
+2026-03-14 17:42:51 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 17:42:54 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2024-03-14_2026-03-14.csv
+2026-03-14 17:42:54 | INFO     | src.data.preprocess | Cleaned OHLCV: 483 rows remaining
+2026-03-14 17:42:54 | INFO     | src.data.loader | Loaded 483 rows for 2330.TW [2024-03-14 ~ 2026-03-14]
+2026-03-14 17:42:54 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 17:42:59 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2024-03-14_2026-03-14.csv
+2026-03-14 17:42:59 | INFO     | src.data.preprocess | Cleaned OHLCV: 483 rows remaining
+2026-03-14 17:42:59 | INFO     | src.data.loader | Loaded 483 rows for 2330.TW [2024-03-14 ~ 2026-03-14]
+2026-03-14 17:42:59 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 17:43:00 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2024-03-14_2026-03-14.csv
+2026-03-14 17:43:00 | INFO     | src.data.preprocess | Cleaned OHLCV: 483 rows remaining
+2026-03-14 17:43:00 | INFO     | src.data.loader | Loaded 483 rows for 2330.TW [2024-03-14 ~ 2026-03-14]
+2026-03-14 17:43:00 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 17:43:00 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2024-03-14_2026-03-14.csv
+2026-03-14 17:43:00 | INFO     | src.data.preprocess | Cleaned OHLCV: 483 rows remaining
+2026-03-14 17:43:00 | INFO     | src.data.loader | Loaded 483 rows for 2330.TW [2024-03-14 ~ 2026-03-14]
+2026-03-14 17:43:00 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 17:43:11 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2023-03-15_2026-03-14.csv
+2026-03-14 17:43:11 | INFO     | src.data.preprocess | Cleaned OHLCV: 725 rows remaining
+2026-03-14 17:43:11 | INFO     | src.data.loader | Loaded 725 rows for 2330.TW [2023-03-15 ~ 2026-03-14]
+2026-03-14 17:43:11 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 17:43:27 | INFO     | src.data.tw_stock_api | Downloading 2330.TW from 2021-03-01 to 2026-03-14
+2026-03-14 17:43:28 | INFO     | src.data.tw_stock_api | Cached to data\cache\2330.TW_2021-03-01_2026-03-14.csv
+2026-03-14 17:43:28 | INFO     | src.data.preprocess | Cleaned OHLCV: 1222 rows remaining
+2026-03-14 17:43:28 | INFO     | src.data.loader | Loaded 1222 rows for 2330.TW [2021-03-01 ~ 2026-03-14]
+2026-03-14 17:43:28 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 17:43:28 | INFO     | src.models.trainer | After dropping NaN: 1158 rows (from 1158)
+2026-03-14 17:43:28 | INFO     | src.models.trainer | Train: (926, 35) | Test: (232, 35)
+2026-03-14 17:43:28 | INFO     | src.models.trainer | Trained [baseline] for task=[regression]
+2026-03-14 17:44:08 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2023-03-15_2026-03-14.csv
+2026-03-14 17:44:08 | INFO     | src.data.preprocess | Cleaned OHLCV: 725 rows remaining
+2026-03-14 17:44:08 | INFO     | src.data.loader | Loaded 725 rows for 2330.TW [2023-03-15 ~ 2026-03-14]
+2026-03-14 17:44:08 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 17:44:14 | INFO     | src.data.tw_stock_api | Downloading 2330.TW from 2023-03-01 to 2026-03-14
+2026-03-14 17:44:15 | INFO     | src.data.tw_stock_api | Cached to data\cache\2330.TW_2023-03-01_2026-03-14.csv
+2026-03-14 17:44:15 | INFO     | src.data.preprocess | Cleaned OHLCV: 735 rows remaining
+2026-03-14 17:44:15 | INFO     | src.data.loader | Loaded 735 rows for 2330.TW [2023-03-01 ~ 2026-03-14]
+2026-03-14 17:44:15 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 17:44:15 | INFO     | src.models.trainer | After dropping NaN: 671 rows (from 671)
+2026-03-14 17:44:15 | INFO     | src.models.trainer | Train: (536, 35) | Test: (135, 35)
+2026-03-14 17:44:16 | INFO     | src.models.trainer | Trained [lightgbm] for task=[regression]
+2026-03-14 17:44:52 | INFO     | src.data.tw_stock_api | Downloading 2308.TW from 2023-03-01 to 2026-03-14
+2026-03-14 17:44:53 | INFO     | src.data.tw_stock_api | Cached to data\cache\2308.TW_2023-03-01_2026-03-14.csv
+2026-03-14 17:44:53 | INFO     | src.data.preprocess | Cleaned OHLCV: 735 rows remaining
+2026-03-14 17:44:53 | INFO     | src.data.loader | Loaded 735 rows for 2308.TW [2023-03-01 ~ 2026-03-14]
+2026-03-14 17:44:53 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 17:44:53 | INFO     | src.models.trainer | After dropping NaN: 656 rows (from 656)
+2026-03-14 17:44:53 | INFO     | src.models.trainer | Train: (524, 35) | Test: (132, 35)
+2026-03-14 17:44:54 | INFO     | src.models.trainer | Trained [lightgbm] for task=[regression]
+2026-03-14 17:45:25 | INFO     | src.backtest.engine | Backtest [Prediction-based]: return=733.8%, sharpe=2.81, maxdd=-17.2%, trades=18
+2026-03-14 17:45:59 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 17:45:59 | INFO     | src.report.exporter | Report saved to artifacts\reports\report_2308_TW_20260314_174559.md
+2026-03-14 18:04:48 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2023-03-01_2026-03-14.csv
+2026-03-14 18:04:48 | INFO     | src.data.preprocess | Cleaned OHLCV: 735 rows remaining
+2026-03-14 18:04:48 | INFO     | src.data.loader | Loaded 735 rows for 2330.TW [2023-03-01 ~ 2026-03-14]
+2026-03-14 18:04:49 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 18:04:59 | INFO     | src.data.tw_stock_api | Downloading 2330.TW from 2021-03-02 to 2026-03-14
+2026-03-14 18:05:00 | INFO     | src.data.tw_stock_api | Cached to data\cache\2330.TW_2021-03-02_2026-03-14.csv
+2026-03-14 18:05:00 | INFO     | src.data.preprocess | Cleaned OHLCV: 1222 rows remaining
+2026-03-14 18:05:00 | INFO     | src.data.loader | Loaded 1222 rows for 2330.TW [2021-03-02 ~ 2026-03-14]
+2026-03-14 18:05:00 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 18:05:00 | INFO     | src.models.trainer | After dropping NaN: 1163 rows (from 1163)
+2026-03-14 18:05:00 | INFO     | src.models.trainer | Train: (930, 35) | Test: (233, 35)
+2026-03-14 18:05:01 | INFO     | src.models.trainer | Trained [lightgbm] for task=[classification]
+2026-03-14 18:11:02 | INFO     | src.backtest.engine | Backtest [Prediction-based]: return=380.4%, sharpe=1.61, maxdd=-16.8%, trades=60
+2026-03-14 20:13:12 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2023-03-15_2026-03-14.csv
+2026-03-14 20:13:12 | INFO     | src.data.preprocess | Cleaned OHLCV: 725 rows remaining
+2026-03-14 20:13:12 | INFO     | src.data.loader | Loaded 725 rows for 2330.TW [2023-03-15 ~ 2026-03-14]
+2026-03-14 20:13:12 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 20:13:21 | INFO     | src.data.tw_stock_api | Downloading 2330.TW from 2023-03-08 to 2026-03-14
+2026-03-14 20:13:23 | INFO     | src.data.tw_stock_api | Cached to data\cache\2330.TW_2023-03-08_2026-03-14.csv
+2026-03-14 20:13:23 | INFO     | src.data.preprocess | Cleaned OHLCV: 730 rows remaining
+2026-03-14 20:13:23 | INFO     | src.data.loader | Loaded 730 rows for 2330.TW [2023-03-08 ~ 2026-03-14]
+2026-03-14 20:13:23 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 20:13:23 | INFO     | src.models.trainer | After dropping NaN: 666 rows (from 666)
+2026-03-14 20:13:23 | INFO     | src.models.trainer | Train: (532, 35) | Test: (134, 35)
+2026-03-14 20:13:24 | INFO     | src.models.trainer | Trained [lightgbm] for task=[regression]
+2026-03-14 20:22:46 | INFO     | src.agent.prompt_parser | Parsed needs: {'stock_id': '2330', 'task_type': 'regression', 'horizon': 5, 'preferred_models': ['linear_regression', 'xgboost'], 'feature_groups': ['price', 'volume', 'technical'], 'validation_method': 'time_split', 'user_goal': '請你幫我建立lstm去做預測'}
+2026-03-14 20:22:46 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2023-03-15_2026-03-14.csv
+2026-03-14 20:22:46 | INFO     | src.data.preprocess | Cleaned OHLCV: 725 rows remaining
+2026-03-14 20:22:46 | INFO     | src.data.loader | Loaded 725 rows for 2330 [2023-03-15 ~ 2026-03-14]
+2026-03-14 20:22:46 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 20:22:46 | INFO     | src.models.trainer | After dropping NaN: 661 rows (from 661)
+2026-03-14 20:22:46 | INFO     | src.models.trainer | Train: (528, 31) | Test: (133, 31)
+2026-03-14 20:22:46 | WARNING  | src.agent.workflow_runner | Workflow failed: Unknown model: linear_regression. Choose from ['baseline', 'linear', 'lightgbm', 'xgboost']
+2026-03-14 20:22:46 | INFO     | src.agent.workflow_runner | Retrying with fix: Switch model from linear_regression to linear due to environment issue.
+2026-03-14 20:22:46 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2023-03-15_2026-03-14.csv
+2026-03-14 20:22:46 | INFO     | src.data.preprocess | Cleaned OHLCV: 725 rows remaining
+2026-03-14 20:22:46 | INFO     | src.data.loader | Loaded 725 rows for 2330 [2023-03-15 ~ 2026-03-14]
+2026-03-14 20:22:46 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 20:22:46 | INFO     | src.models.trainer | After dropping NaN: 661 rows (from 661)
+2026-03-14 20:22:46 | INFO     | src.models.trainer | Train: (528, 31) | Test: (133, 31)
+2026-03-14 20:22:46 | INFO     | src.models.trainer | Trained [linear] for task=[regression]
+2026-03-14 20:25:28 | INFO     | src.agent.prompt_parser | Parsed needs: {'stock_id': '2330', 'task_type': 'regression', 'horizon': 5, 'preferred_models': ['linear_regression', 'xgboost'], 'feature_groups': ['price', 'volume', 'technical'], 'validation_method': 'time_split', 'user_goal': '幫我用建立一個lstm模型去預測'}
+2026-03-14 20:25:28 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2023-03-15_2026-03-14.csv
+2026-03-14 20:25:28 | INFO     | src.data.preprocess | Cleaned OHLCV: 725 rows remaining
+2026-03-14 20:25:28 | INFO     | src.data.loader | Loaded 725 rows for 2330 [2023-03-15 ~ 2026-03-14]
+2026-03-14 20:25:28 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 20:25:28 | INFO     | src.models.trainer | After dropping NaN: 661 rows (from 661)
+2026-03-14 20:25:28 | INFO     | src.models.trainer | Train: (528, 31) | Test: (133, 31)
+2026-03-14 20:25:28 | WARNING  | src.agent.workflow_runner | Workflow failed: Unknown model: linear_regression. Choose from ['baseline', 'linear', 'lightgbm', 'xgboost']
+2026-03-14 20:25:28 | INFO     | src.agent.workflow_runner | Retrying with fix: Switch model from linear_regression to linear due to environment issue.
+2026-03-14 20:25:28 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2023-03-15_2026-03-14.csv
+2026-03-14 20:25:28 | INFO     | src.data.preprocess | Cleaned OHLCV: 725 rows remaining
+2026-03-14 20:25:28 | INFO     | src.data.loader | Loaded 725 rows for 2330 [2023-03-15 ~ 2026-03-14]
+2026-03-14 20:25:28 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 20:25:28 | INFO     | src.models.trainer | After dropping NaN: 661 rows (from 661)
+2026-03-14 20:25:28 | INFO     | src.models.trainer | Train: (528, 31) | Test: (133, 31)
+2026-03-14 20:25:28 | INFO     | src.models.trainer | Trained [linear] for task=[regression]
+2026-03-14 20:31:00 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2023-03-15_2026-03-14.csv
+2026-03-14 20:31:00 | INFO     | src.data.preprocess | Cleaned OHLCV: 725 rows remaining
+2026-03-14 20:31:00 | INFO     | src.data.loader | Loaded 725 rows for 2330 [2023-03-15 ~ 2026-03-14]
+2026-03-14 20:31:00 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 20:31:00 | INFO     | src.models.trainer | After dropping NaN: 661 rows (from 661)
+2026-03-14 20:31:00 | INFO     | src.models.trainer | Train: (528, 31) | Test: (133, 31)
+2026-03-14 20:31:00 | INFO     | src.models.trainer | Trained [linear] for task=[regression]
+2026-03-14 20:37:55 | INFO     | src.agent.prompt_parser | Generating code for prompt: 請幫我建立一個lstm模型去預測
+2026-03-14 20:37:59 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 20:37:59 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 22, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 4, in <module>
+ModuleNotFoundError: No module named 'keras'
+
+2026-03-14 20:37:59 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 1. Error: No module named 'keras'
+2026-03-14 20:38:00 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 20:38:00 | INFO     | src.agent.workflow_runner | Retrying with code fix: LLM-Assisted Repair (Attempt 1)
+2026-03-14 20:38:00 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 22, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 4, in <module>
+ModuleNotFoundError: No module named 'tensorflow'
+
+2026-03-14 20:38:00 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 2. Error: No module named 'tensorflow'
+2026-03-14 20:38:03 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 20:38:03 | INFO     | src.agent.workflow_runner | Retrying with code fix: LLM-Assisted Repair (Attempt 2)
+2026-03-14 20:38:03 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "<string>", line 5, in <module>
+ModuleNotFoundError: No module named 'tensorflow'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 22, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 10, in <module>
+NameError: name 'sys' is not defined
+
+2026-03-14 20:39:42 | INFO     | src.agent.prompt_parser | Generating code for prompt: 請幫我建立一個lstm模型去做預測
+2026-03-14 20:39:44 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 20:39:45 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 22, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 4, in <module>
+ModuleNotFoundError: No module named 'keras'
+
+2026-03-14 20:39:45 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 1. Error: No module named 'keras'
+2026-03-14 20:39:46 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 20:39:46 | INFO     | src.agent.workflow_runner | Retrying with code fix: LLM-Assisted Repair (Attempt 1)
+2026-03-14 20:39:46 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 22, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 4, in <module>
+ModuleNotFoundError: No module named 'tensorflow'
+
+2026-03-14 20:39:46 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 2. Error: No module named 'tensorflow'
+2026-03-14 20:39:48 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 20:39:48 | INFO     | src.agent.workflow_runner | Retrying with code fix: LLM-Assisted Repair (Attempt 2)
+2026-03-14 20:39:48 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 22, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 102, in <module>
+  File "<string>", line 39, in execute_research
+TypeError: load_stock_data() missing 1 required positional argument: 'end_date'
+
+2026-03-14 20:41:32 | INFO     | src.agent.prompt_parser | Generating code for prompt: 請幫我建立lstm模型去預測
+2026-03-14 20:41:35 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 20:41:35 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 22, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 4, in <module>
+ModuleNotFoundError: No module named 'keras'
+
+2026-03-14 20:41:35 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 1. Error: No module named 'keras'
+2026-03-14 20:41:37 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 20:41:37 | INFO     | src.agent.workflow_runner | Retrying with code fix: LLM-Assisted Repair (Attempt 1)
+2026-03-14 20:41:37 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 22, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 4, in <module>
+ModuleNotFoundError: No module named 'tensorflow'
+
+2026-03-14 20:41:37 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 2. Error: No module named 'tensorflow'
+2026-03-14 20:41:39 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 20:41:39 | INFO     | src.agent.workflow_runner | Retrying with code fix: LLM-Assisted Repair (Attempt 2)
+2026-03-14 20:41:40 | INFO     | src.data.tw_stock_api | Downloading 2330.TW from 2020-01-01 to 2022-12-31
+2026-03-14 20:41:41 | INFO     | src.data.tw_stock_api | Cached to data\cache\2330.TW_2020-01-01_2022-12-31.csv
+2026-03-14 20:41:41 | INFO     | src.data.preprocess | Cleaned OHLCV: 734 rows remaining
+2026-03-14 20:41:41 | INFO     | src.data.loader | Loaded 734 rows for 2330 [2020-01-01 ~ 2022-12-31]
+2026-03-14 20:41:41 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 20:41:41 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 22, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 109, in <module>
+  File "<string>", line 70, in execute_research
+TypeError: keras.layers.LSTM.__init__() missing 1 required positional argument: 'input_shape'
+
+2026-03-14 20:43:48 | INFO     | src.agent.prompt_parser | Generating code for prompt: 幫我建立lstm去做預測
+2026-03-14 20:43:51 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 20:43:51 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 22, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 4, in <module>
+ModuleNotFoundError: No module named 'keras'
+
+2026-03-14 20:43:51 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 1.
+2026-03-14 20:43:53 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 20:43:53 | INFO     | src.agent.workflow_runner | Retrying with code fix: LLM-Traceback-Repair (Attempt 1)
+2026-03-14 20:43:53 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 22, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 4, in <module>
+ModuleNotFoundError: No module named 'tensorflow'
+
+2026-03-14 20:43:53 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 2.
+2026-03-14 20:43:55 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 20:43:55 | INFO     | src.agent.workflow_runner | Retrying with code fix: LLM-Traceback-Repair (Attempt 2)
+2026-03-14 20:53:13 | INFO     | src.agent.prompt_parser | Generating code for prompt: 請幫我建立lstm模型去預測
+2026-03-14 20:53:16 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 20:53:16 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 4, in <module>
+ModuleNotFoundError: No module named 'keras'
+
+2026-03-14 20:53:16 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 1.
+2026-03-14 20:53:18 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 20:53:18 | INFO     | src.agent.workflow_runner | Retrying with code fix: LLM-Traceback-Repair (Attempt 1)
+2026-03-14 20:56:26 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2020-01-01_2022-12-31.csv
+2026-03-14 20:56:26 | INFO     | src.data.preprocess | Cleaned OHLCV: 734 rows remaining
+2026-03-14 20:56:26 | INFO     | src.data.loader | Loaded 734 rows for 2330 [2020-01-01 ~ 2022-12-31]
+2026-03-14 20:56:26 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 20:56:26 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 74, in <module>
+  File "<string>", line 56, in execute_research
+TypeError: train_model() got an unexpected keyword argument 'model'
+
+2026-03-14 20:56:26 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 2.
+2026-03-14 20:56:28 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 20:56:28 | INFO     | src.agent.workflow_runner | Retrying with code fix: LLM-Traceback-Repair (Attempt 2)
+2026-03-14 20:56:28 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2020-01-01_2022-12-31.csv
+2026-03-14 20:56:28 | INFO     | src.data.preprocess | Cleaned OHLCV: 734 rows remaining
+2026-03-14 20:56:28 | INFO     | src.data.loader | Loaded 734 rows for 2330 [2020-01-01 ~ 2022-12-31]
+2026-03-14 20:56:28 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 20:56:28 | WARNING  | tensorflow | TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-03-14 20:56:54 | WARNING  | tensorflow | From C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2026-03-14 21:04:53 | INFO     | src.agent.prompt_parser | Generating code for prompt: 請幫我建立一個lstm去做預測
+2026-03-14 21:04:56 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:05:01 | INFO     | src.data.tw_stock_api | Downloading 2330.TW from 2022-01-01 to 2022-12-31
+2026-03-14 21:05:02 | INFO     | src.data.tw_stock_api | Cached to data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:05:02 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:05:02 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:05:02 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 21:05:02 | WARNING  | tensorflow | TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-03-14 21:05:13 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 86, in <module>
+  File "<string>", line 64, in execute_research
+TypeError: evaluate_model() takes 1 positional argument but 2 were given
+
+2026-03-14 21:05:13 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 1.
+2026-03-14 21:05:16 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:05:16 | INFO     | src.agent.workflow_runner | Retrying with code fix: LLM-Traceback-Repair (Attempt 1)
+2026-03-14 21:05:16 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:05:16 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:05:16 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:05:16 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 21:05:26 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 91, in <module>
+  File "<string>", line 69, in execute_research
+  File "<string>", line 67, in evaluate_model
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\_param_validation.py", line 216, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\metrics\_regression.py", line 565, in mean_squared_error
+    _check_reg_targets_with_floating_dtype(
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\metrics\_regression.py", line 198, in _check_reg_targets_with_floating_dtype
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+                                          ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\metrics\_regression.py", line 105, in _check_reg_targets
+    y_true = check_array(y_true, ensure_2d=False, dtype=dtype)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\validation.py", line 1107, in check_array
+    _assert_all_finite(
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+2026-03-14 21:05:26 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 2.
+2026-03-14 21:05:29 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:05:29 | INFO     | src.agent.workflow_runner | Retrying with code fix: LLM-Traceback-Repair (Attempt 2)
+2026-03-14 21:05:29 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:05:29 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:05:29 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:05:29 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 21:05:40 | WARNING  | tensorflow | 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000025E2D16CB80> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2026-03-14 21:05:40 | WARNING  | tensorflow | 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000025E2D16CB80> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2026-03-14 21:05:40 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 96, in <module>
+  File "<string>", line 74, in execute_research
+  File "<string>", line 68, in evaluate_model
+IndexError: too many indices for array: array is 1-dimensional, but 2 were indexed
+
+2026-03-14 21:05:41 | WARNING  | tensorflow | From C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2026-03-14 21:09:31 | INFO     | src.agent.prompt_parser | Generating code for prompt: 請幫我建立lstm去做預測
+2026-03-14 21:09:33 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:09:38 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:09:38 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:09:38 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:09:38 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 21:09:38 | WARNING  | tensorflow | TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-03-14 21:09:38 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 84, in <module>
+  File "<string>", line 58, in execute_research
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\src\utils\traceback_utils.py", line 124, in error_handler
+    del filtered_tb
+ValueError: Exception encountered when calling LSTMCell.call().
+
+[1mDimensions must be equal, but are 35 and 1 for '{{node sequential_1/lstm_1/lstm_cell_1/MatMul}} = MatMul[T=DT_FLOAT, grad_a=false, grad_b=false, transpose_a=false, transpose_b=false](sequential_1/lstm_1/strided_slice_2, sequential_1/lstm_1/lstm_cell_1/Cast/ReadVariableOp)' with input shapes: [?,35], [1,200].[0m
+
+Arguments received by LSTMCell.call():
+  • inputs=tf.Tensor(shape=(None, 35), dtype=float32)
+  • states=('tf.Tensor(shape=(None, 50), dtype=float32)', 'tf.Tensor(shape=(None, 50), dtype=float32)')
+  • training=True
+
+2026-03-14 21:09:38 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 1.
+2026-03-14 21:09:40 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:09:40 | INFO     | src.agent.workflow_runner | Retrying with code fix: LLM-Traceback-Repair (Attempt 1)
+2026-03-14 21:09:40 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:09:40 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:09:40 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:09:40 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 21:09:45 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 84, in <module>
+  File "<string>", line 69, in execute_research
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\models\evaluator.py", line 70, in evaluate_model
+    baseline = train_result["baseline_model"]
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+KeyError: 'baseline_model'
+
+2026-03-14 21:09:45 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 2.
+2026-03-14 21:09:46 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:09:46 | INFO     | src.agent.workflow_runner | Retrying with code fix: LLM-Traceback-Repair (Attempt 2)
+2026-03-14 21:09:46 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:09:46 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:09:46 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:09:46 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 21:09:51 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 85, in <module>
+  File "<string>", line 70, in execute_research
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\models\evaluator.py", line 73, in evaluate_model
+    X_train = train_result["X_train"]
+              ~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'X_train'
+
+2026-03-14 21:09:52 | WARNING  | tensorflow | From C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2026-03-14 21:11:18 | INFO     | src.agent.prompt_parser | Generating code for prompt: 請幫我建立lstm模型去預測
+2026-03-14 21:11:22 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:11:26 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:11:26 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:11:26 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:11:26 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 21:11:26 | WARNING  | tensorflow | TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-03-14 21:11:27 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 74, in <module>
+  File "<string>", line 56, in execute_research
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\models\trainer.py", line 54, in train_model
+    raise ValueError(
+ValueError: Insufficient data: After dropping NaNs (due to indicators/horizon), only 0 rows remain. Please try a longer date range or fewer technical indicators (like SMA 60).
+
+2026-03-14 21:11:27 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 1.
+2026-03-14 21:11:28 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:11:28 | INFO     | src.agent.workflow_runner | Retrying with code fix: LLM-Traceback-Repair (Attempt 1)
+2026-03-14 21:11:28 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2020-01-01_2022-12-31.csv
+2026-03-14 21:11:28 | INFO     | src.data.preprocess | Cleaned OHLCV: 734 rows remaining
+2026-03-14 21:11:28 | INFO     | src.data.loader | Loaded 734 rows for 2330 [2020-01-01 ~ 2022-12-31]
+2026-03-14 21:11:28 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:11:28 | INFO     | src.models.trainer | After dropping NaN: 526 rows (from 587)
+2026-03-14 21:11:28 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 74, in <module>
+  File "<string>", line 56, in execute_research
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\models\trainer.py", line 62, in train_model
+    split_idx = int(len(df_clean) * (1 - test_ratio))
+                                     ~~^~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'int' and 'Sequential'
+
+2026-03-14 21:11:28 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 2.
+2026-03-14 21:11:29 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:11:29 | INFO     | src.agent.workflow_runner | Retrying with code fix: LLM-Traceback-Repair (Attempt 2)
+2026-03-14 21:11:29 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2020-01-01_2022-12-31.csv
+2026-03-14 21:11:29 | INFO     | src.data.preprocess | Cleaned OHLCV: 734 rows remaining
+2026-03-14 21:11:29 | INFO     | src.data.loader | Loaded 734 rows for 2330 [2020-01-01 ~ 2022-12-31]
+2026-03-14 21:11:29 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:11:34 | WARNING  | tensorflow | From C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2026-03-14 21:12:46 | INFO     | src.agent.prompt_parser | Generating code for prompt: 請幫我建立lstm模型去預測
+2026-03-14 21:12:49 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:12:52 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:12:52 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:12:52 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:12:52 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 21:12:52 | WARNING  | tensorflow | TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-03-14 21:12:52 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 92, in <module>
+  File "<string>", line 59, in execute_research
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\src\utils\traceback_utils.py", line 124, in error_handler
+    del filtered_tb
+ValueError: Exception encountered when calling LSTMCell.call().
+
+[1mDimensions must be equal, but are 35 and 1 for '{{node sequential_1/lstm_1/lstm_cell_1/MatMul}} = MatMul[T=DT_FLOAT, grad_a=false, grad_b=false, transpose_a=false, transpose_b=false](sequential_1/lstm_1/strided_slice_2, sequential_1/lstm_1/lstm_cell_1/Cast/ReadVariableOp)' with input shapes: [?,35], [1,200].[0m
+
+Arguments received by LSTMCell.call():
+  • inputs=tf.Tensor(shape=(None, 35), dtype=float32)
+  • states=('tf.Tensor(shape=(None, 50), dtype=float32)', 'tf.Tensor(shape=(None, 50), dtype=float32)')
+  • training=True
+
+2026-03-14 21:12:52 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 1.
+2026-03-14 21:12:54 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:12:54 | INFO     | src.agent.workflow_runner | Retrying with code fix: LLM-Traceback-Repair (Attempt 1)
+2026-03-14 21:12:54 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:12:54 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:12:54 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:12:54 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 21:13:00 | WARNING  | tensorflow | From C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2026-03-14 21:15:54 | INFO     | src.agent.prompt_parser | Generating code for prompt: 幫我用隨機森林去做預測
+2026-03-14 21:15:56 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:15:57 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:15:57 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:15:57 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:15:57 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 21:15:57 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 75, in <module>
+  File "<string>", line 45, in execute_research
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\ensemble\_forest.py", line 360, in fit
+    X, y = validate_data(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\validation.py", line 2961, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\validation.py", line 1387, in check_X_y
+    y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\validation.py", line 1397, in _check_y
+    y = check_array(
+        ^^^^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\validation.py", line 1107, in check_array
+    _assert_all_finite(
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains NaN.
+
+2026-03-14 21:15:57 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 1.
+2026-03-14 21:15:59 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:15:59 | INFO     | src.agent.workflow_runner | Retrying with code fix: LLM-Traceback-Repair (Attempt 1)
+2026-03-14 21:15:59 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:15:59 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:15:59 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:15:59 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 21:15:59 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 83, in <module>
+  File "<string>", line 44, in execute_research
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\_param_validation.py", line 216, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\model_selection\_split.py", line 2851, in train_test_split
+    n_train, n_test = _validate_shuffle_split(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\model_selection\_split.py", line 2481, in _validate_shuffle_split
+    raise ValueError(
+ValueError: With n_samples=0, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+
+2026-03-14 21:15:59 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 2.
+2026-03-14 21:16:01 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:16:01 | INFO     | src.agent.workflow_runner | Retrying with code fix: LLM-Traceback-Repair (Attempt 2)
+2026-03-14 21:16:01 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:16:01 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:16:01 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:16:01 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 21:16:33 | INFO     | src.agent.prompt_parser | Generating code for prompt: 幫我用樹模型做一個台股漲跌預測，若資料不足就自動改成簡單模型。
+
+2026-03-14 21:16:36 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:16:36 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:16:36 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:16:36 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:16:36 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 21:16:36 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "<string>", line 41, in execute_research
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\models\trainer.py", line 54, in train_model
+    raise ValueError(
+ValueError: Insufficient data: After dropping NaNs (due to indicators/horizon), only 0 rows remain. Please try a longer date range or fewer technical indicators (like SMA 60).
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 64, in <module>
+  File "<string>", line 46, in execute_research
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\models\trainer.py", line 54, in train_model
+    raise ValueError(
+ValueError: Insufficient data: After dropping NaNs (due to indicators/horizon), only 0 rows remain. Please try a longer date range or fewer technical indicators (like SMA 60).
+
+2026-03-14 21:16:36 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 1.
+2026-03-14 21:16:37 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:16:37 | INFO     | src.agent.workflow_runner | Retrying with code fix: LLM-Traceback-Repair (Attempt 1)
+2026-03-14 21:16:37 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2020-01-01_2022-12-31.csv
+2026-03-14 21:16:37 | INFO     | src.data.preprocess | Cleaned OHLCV: 734 rows remaining
+2026-03-14 21:16:37 | INFO     | src.data.loader | Loaded 734 rows for 2330 [2020-01-01 ~ 2022-12-31]
+2026-03-14 21:16:37 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 21:16:37 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 76, in <module>
+  File "<string>", line 44, in execute_research
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\_param_validation.py", line 216, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\model_selection\_split.py", line 2851, in train_test_split
+    n_train, n_test = _validate_shuffle_split(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\model_selection\_split.py", line 2481, in _validate_shuffle_split
+    raise ValueError(
+ValueError: With n_samples=0, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+
+2026-03-14 21:16:37 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 2.
+2026-03-14 21:16:39 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:16:39 | INFO     | src.agent.workflow_runner | Retrying with code fix: LLM-Traceback-Repair (Attempt 2)
+2026-03-14 21:16:39 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2020-01-01_2022-12-31.csv
+2026-03-14 21:16:39 | INFO     | src.data.preprocess | Cleaned OHLCV: 734 rows remaining
+2026-03-14 21:16:39 | INFO     | src.data.loader | Loaded 734 rows for 2330 [2020-01-01 ~ 2022-12-31]
+2026-03-14 21:16:39 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 21:17:14 | INFO     | src.agent.prompt_parser | Generating code for prompt: 幫我隨便做一個模型去預測
+2026-03-14 21:17:16 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:17:16 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:17:16 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:17:16 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:17:16 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 21:17:16 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 64, in <module>
+  File "<string>", line 44, in execute_research
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\models\trainer.py", line 50, in train_model
+    cols_needed = feature_cols + ["target"]
+                  ~~~~~~~~~~~~~^~~~~~~~~~~~
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\ops\common.py", line 76, in new_method
+    return method(self, other)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\arraylike.py", line 186, in __add__
+    return self._arith_method(other, operator.add)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\series.py", line 6135, in _arith_method
+    return base.IndexOpsMixin._arith_method(self, other, op)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\base.py", line 1382, in _arith_method
+    result = ops.arithmetic_op(lvalues, rvalues, op)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\ops\array_ops.py", line 283, in arithmetic_op
+    res_values = _na_arithmetic_op(left, right, op)  # type: ignore[arg-type]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\ops\array_ops.py", line 218, in _na_arithmetic_op
+    result = func(left, right)
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\computation\expressions.py", line 242, in evaluate
+    return _evaluate(op, op_str, a, b)  # type: ignore[misc]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\computation\expressions.py", line 73, in _evaluate_standard
+    return op(a, b)
+           ^^^^^^^^
+numpy._core._exceptions._UFuncNoLoopError: ufunc 'add' did not contain a loop with signature matching types (dtype('float64'), dtype('<U6')) -> None
+
+2026-03-14 21:17:16 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 1.
+2026-03-14 21:17:17 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:17:17 | INFO     | src.agent.workflow_runner | Retrying with code fix: LLM-Traceback-Repair (Attempt 1)
+2026-03-14 21:17:17 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:17:17 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:17:17 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:17:17 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 21:17:17 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 69, in <module>
+  File "<string>", line 41, in execute_research
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\utils\_param_validation.py", line 216, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\model_selection\_split.py", line 2851, in train_test_split
+    n_train, n_test = _validate_shuffle_split(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\sklearn\model_selection\_split.py", line 2481, in _validate_shuffle_split
+    raise ValueError(
+ValueError: With n_samples=0, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+
+2026-03-14 21:17:17 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 2.
+2026-03-14 21:17:19 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:17:19 | INFO     | src.agent.workflow_runner | Retrying with code fix: LLM-Traceback-Repair (Attempt 2)
+2026-03-14 21:17:19 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:17:19 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:17:19 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:17:19 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 41
+2026-03-14 21:20:26 | INFO     | src.agent.prompt_parser | Generating code for prompt: 幫我隨便建立一個模型去預測
+2026-03-14 21:20:28 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:20:29 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:20:29 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:20:29 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:20:29 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:20:29 | INFO     | src.models.trainer | After dropping NaN: 125 rows (from 125)
+2026-03-14 21:20:29 | INFO     | src.models.trainer | Train: (100, 31) | Test: (25, 31)
+2026-03-14 21:20:29 | INFO     | src.models.trainer | Trained [lightgbm] for task=[regression]
+2026-03-14 21:21:17 | INFO     | src.agent.prompt_parser | Generating code for prompt: 幫我隨便建立一個模型去預測1101的股票
+2026-03-14 21:21:19 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:21:19 | INFO     | src.data.tw_stock_api | Downloading 1101.TW from 2022-01-01 to 2022-12-31
+2026-03-14 21:21:20 | INFO     | src.data.tw_stock_api | Cached to data\cache\1101.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:21:20 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:21:20 | INFO     | src.data.loader | Loaded 246 rows for 1101 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:21:20 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:21:20 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\indexes\base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 60, in <module>
+  File "<string>", line 33, in execute_research
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'date'
+
+2026-03-14 21:21:20 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 1.
+2026-03-14 21:21:22 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:21:22 | INFO     | src.agent.workflow_runner | Retrying with code fix: LLM-Traceback-Repair (Attempt 1)
+2026-03-14 21:21:22 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\1101.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:21:22 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:21:22 | INFO     | src.data.loader | Loaded 246 rows for 1101 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:21:22 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 64, in <module>
+  File "<string>", line 23, in execute_research
+ValueError: 資料中缺少 'date' 欄位
+
+2026-03-14 21:21:22 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 2.
+2026-03-14 21:21:24 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:21:24 | INFO     | src.agent.workflow_runner | Retrying with code fix: LLM-Traceback-Repair (Attempt 2)
+2026-03-14 21:21:24 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\1101.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:21:24 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:21:24 | INFO     | src.data.loader | Loaded 246 rows for 1101 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:21:24 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 38
+2026-03-14 21:21:24 | INFO     | src.models.trainer | After dropping NaN: 57 rows (from 116)
+2026-03-14 21:21:24 | INFO     | src.models.trainer | Train: (45, 31) | Test: (12, 31)
+2026-03-14 21:21:24 | INFO     | src.models.trainer | Trained [lightgbm] for task=[regression]
+2026-03-14 21:22:22 | INFO     | src.agent.prompt_parser | Generating code for prompt: 幫我建立lstm去做預測
+2026-03-14 21:22:24 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:22:30 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:22:30 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:22:30 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:22:30 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:22:30 | WARNING  | tensorflow | TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-03-14 21:22:37 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 88, in <module>
+  File "<string>", line 64, in execute_research
+TypeError: evaluate_model() takes 1 positional argument but 2 were given
+
+2026-03-14 21:22:37 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 1.
+2026-03-14 21:22:39 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:22:39 | INFO     | src.agent.workflow_runner | Retrying with code fix: LLM-Traceback-Repair (Attempt 1)
+2026-03-14 21:22:39 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:22:39 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:22:39 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:22:39 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:22:43 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\indexes\datetimes.py", line 603, in get_loc
+    parsed, reso = self._parse_with_reso(key)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\indexes\datetimes.py", line 559, in _parse_with_reso
+    parsed, reso = super()._parse_with_reso(label)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\indexes\datetimelike.py", line 293, in _parse_with_reso
+    parsed, reso_str = parsing.parse_datetime_string_with_reso(label, freqstr)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "parsing.pyx", line 442, in pandas._libs.tslibs.parsing.parse_datetime_string_with_reso
+  File "parsing.pyx", line 666, in pandas._libs.tslibs.parsing.dateutil_parse
+pandas._libs.tslibs.parsing.DateParseError: Unknown datetime string format, unable to parse: model
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 88, in <module>
+  File "<string>", line 64, in execute_research
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\models\evaluator.py", line 69, in evaluate_model
+    model = train_result["model"]
+            ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\series.py", line 1121, in __getitem__
+    return self._get_value(key)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\series.py", line 1237, in _get_value
+    loc = self.index.get_loc(label)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\indexes\datetimes.py", line 605, in get_loc
+    raise KeyError(key) from err
+KeyError: 'model'
+
+2026-03-14 21:22:43 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 2.
+2026-03-14 21:22:44 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:22:44 | INFO     | src.agent.workflow_runner | Retrying with code fix: LLM-Traceback-Repair (Attempt 2)
+2026-03-14 21:22:44 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:22:44 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:22:44 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:22:44 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:22:48 | WARNING  | tensorflow | 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001BDC7465580> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2026-03-14 21:22:48 | WARNING  | tensorflow | 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001BDC7465580> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2026-03-14 21:22:48 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 88, in <module>
+  File "<string>", line 64, in execute_research
+TypeError: evaluate_model() takes 1 positional argument but 2 were given
+
+2026-03-14 21:22:49 | WARNING  | tensorflow | From C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2026-03-14 21:24:45 | INFO     | src.agent.prompt_parser | Generating code for prompt: 請幫我建立lstm模型去預測
+2026-03-14 21:24:47 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:24:51 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:24:51 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:24:51 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:24:52 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:24:52 | WARNING  | tensorflow | TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-03-14 21:24:55 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 87, in <module>
+  File "<string>", line 63, in execute_research
+TypeError: evaluate_model() takes 1 positional argument but 2 were given
+
+2026-03-14 21:24:55 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 1.
+2026-03-14 21:24:57 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:24:57 | INFO     | src.agent.workflow_runner | Retrying with code fix: LLM-Traceback-Repair (Attempt 1)
+2026-03-14 21:24:57 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:24:57 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:24:57 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:24:57 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:24:57 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 93, in <module>
+  File "<string>", line 63, in execute_research
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\src\trainers\data_adapters\data_adapter_utils.py", line 117, in check_data_cardinality
+    raise ValueError(msg)
+ValueError: Data cardinality is ambiguous. Make sure all arrays contain the same number of samples.'x' sizes: 151
+'y' sizes: 175
+
+
+2026-03-14 21:24:57 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 2.
+2026-03-14 21:24:59 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:24:59 | INFO     | src.agent.workflow_runner | Retrying with code fix: LLM-Traceback-Repair (Attempt 2)
+2026-03-14 21:24:59 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:24:59 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:24:59 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:24:59 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:25:02 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 98, in <module>
+  File "<string>", line 74, in execute_research
+TypeError: evaluate_model() takes 1 positional argument but 2 were given
+
+2026-03-14 21:25:02 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 3.
+2026-03-14 21:25:04 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:25:04 | INFO     | src.agent.workflow_runner | Retrying with code fix: LLM-Traceback-Repair (Attempt 3)
+2026-03-14 21:25:04 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:25:04 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:25:04 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:25:04 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:25:08 | WARNING  | tensorflow | 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001CF7C153600> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2026-03-14 21:25:08 | WARNING  | tensorflow | 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001CF7C153600> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2026-03-14 21:25:08 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\indexes\datetimes.py", line 603, in get_loc
+    parsed, reso = self._parse_with_reso(key)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\indexes\datetimes.py", line 559, in _parse_with_reso
+    parsed, reso = super()._parse_with_reso(label)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\indexes\datetimelike.py", line 293, in _parse_with_reso
+    parsed, reso_str = parsing.parse_datetime_string_with_reso(label, freqstr)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "parsing.pyx", line 442, in pandas._libs.tslibs.parsing.parse_datetime_string_with_reso
+  File "parsing.pyx", line 666, in pandas._libs.tslibs.parsing.dateutil_parse
+pandas._libs.tslibs.parsing.DateParseError: Unknown datetime string format, unable to parse: model
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 98, in <module>
+  File "<string>", line 74, in execute_research
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\models\evaluator.py", line 69, in evaluate_model
+    model = train_result["model"]
+            ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\series.py", line 1121, in __getitem__
+    return self._get_value(key)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\series.py", line 1237, in _get_value
+    loc = self.index.get_loc(label)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\indexes\datetimes.py", line 605, in get_loc
+    raise KeyError(key) from err
+KeyError: 'model'
+
+2026-03-14 21:25:08 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 4.
+2026-03-14 21:25:10 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:25:10 | INFO     | src.agent.workflow_runner | Retrying with code fix: LLM-Traceback-Repair (Attempt 4)
+2026-03-14 21:25:10 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:25:10 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:25:10 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:25:10 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:25:13 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 98, in <module>
+  File "<string>", line 74, in execute_research
+TypeError: evaluate_model() takes 1 positional argument but 2 were given
+
+2026-03-14 21:25:13 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 5.
+2026-03-14 21:25:15 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:25:15 | INFO     | src.agent.workflow_runner | Retrying with code fix: LLM-Traceback-Repair (Attempt 5)
+2026-03-14 21:25:15 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:25:15 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:25:15 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:25:15 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:25:18 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\indexes\datetimes.py", line 603, in get_loc
+    parsed, reso = self._parse_with_reso(key)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\indexes\datetimes.py", line 559, in _parse_with_reso
+    parsed, reso = super()._parse_with_reso(label)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\indexes\datetimelike.py", line 293, in _parse_with_reso
+    parsed, reso_str = parsing.parse_datetime_string_with_reso(label, freqstr)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "parsing.pyx", line 442, in pandas._libs.tslibs.parsing.parse_datetime_string_with_reso
+  File "parsing.pyx", line 666, in pandas._libs.tslibs.parsing.dateutil_parse
+pandas._libs.tslibs.parsing.DateParseError: Unknown datetime string format, unable to parse: model
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 98, in <module>
+  File "<string>", line 74, in execute_research
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\models\evaluator.py", line 69, in evaluate_model
+    model = train_result["model"]
+            ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\series.py", line 1121, in __getitem__
+    return self._get_value(key)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\series.py", line 1237, in _get_value
+    loc = self.index.get_loc(label)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\indexes\datetimes.py", line 605, in get_loc
+    raise KeyError(key) from err
+KeyError: 'model'
+
+2026-03-14 21:25:18 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 6.
+2026-03-14 21:25:20 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:25:20 | INFO     | src.agent.workflow_runner | Retrying with code fix: LLM-Traceback-Repair (Attempt 6)
+2026-03-14 21:25:20 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:25:20 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:25:20 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:25:20 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:25:24 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 98, in <module>
+  File "<string>", line 74, in execute_research
+TypeError: evaluate_model() takes 1 positional argument but 2 were given
+
+2026-03-14 21:25:24 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 7.
+2026-03-14 21:25:25 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:25:25 | INFO     | src.agent.workflow_runner | Retrying with code fix: LLM-Traceback-Repair (Attempt 7)
+2026-03-14 21:25:25 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:25:25 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:25:25 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:25:25 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:25:29 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 98, in <module>
+  File "<string>", line 74, in execute_research
+TypeError: evaluate_model() got an unexpected keyword argument 'y_test'
+
+2026-03-14 21:25:29 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 8.
+2026-03-14 21:25:30 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 21:25:30 | ERROR    | src.agent.llm_client | LLM call failed (groq): Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01khwjxmagewsb8j93t80zt0cc` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98807, Requested 1496. Please try again in 4m21.792s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-03-14 21:25:30 | INFO     | src.agent.workflow_runner | Retrying with code fix: Static Emergency Fallback (Attempt 8)
+2026-03-14 21:25:30 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:25:30 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:25:30 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:25:30 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:25:33 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 98, in <module>
+  File "<string>", line 74, in execute_research
+TypeError: evaluate_model() got an unexpected keyword argument 'y_test'
+
+2026-03-14 21:25:33 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 9.
+2026-03-14 21:25:34 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 21:25:34 | ERROR    | src.agent.llm_client | LLM call failed (groq): Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01khwjxmagewsb8j93t80zt0cc` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98802, Requested 1495. Please try again in 4m16.608s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-03-14 21:25:34 | INFO     | src.agent.workflow_runner | Retrying with code fix: Static Emergency Fallback (Attempt 9)
+2026-03-14 21:25:34 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:25:34 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:25:34 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:25:34 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:25:37 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 98, in <module>
+  File "<string>", line 74, in execute_research
+TypeError: evaluate_model() got an unexpected keyword argument 'y_test'
+
+2026-03-14 21:25:37 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 10.
+2026-03-14 21:25:38 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 21:25:38 | ERROR    | src.agent.llm_client | LLM call failed (groq): Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01khwjxmagewsb8j93t80zt0cc` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98798, Requested 1495. Please try again in 4m13.152s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-03-14 21:25:38 | INFO     | src.agent.workflow_runner | Retrying with code fix: Static Emergency Fallback (Attempt 10)
+2026-03-14 21:25:38 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:25:38 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:25:38 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:25:38 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:25:41 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 98, in <module>
+  File "<string>", line 74, in execute_research
+TypeError: evaluate_model() got an unexpected keyword argument 'y_test'
+
+2026-03-14 21:25:41 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 11.
+2026-03-14 21:25:42 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 21:25:42 | ERROR    | src.agent.llm_client | LLM call failed (groq): Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01khwjxmagewsb8j93t80zt0cc` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98793, Requested 1495. Please try again in 4m8.832s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-03-14 21:25:42 | INFO     | src.agent.workflow_runner | Retrying with code fix: Static Emergency Fallback (Attempt 11)
+2026-03-14 21:25:42 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:25:42 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:25:42 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:25:42 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:25:46 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 98, in <module>
+  File "<string>", line 74, in execute_research
+TypeError: evaluate_model() got an unexpected keyword argument 'y_test'
+
+2026-03-14 21:25:46 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 12.
+2026-03-14 21:25:46 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 21:25:46 | ERROR    | src.agent.llm_client | LLM call failed (groq): Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01khwjxmagewsb8j93t80zt0cc` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98788, Requested 1525. Please try again in 4m30.432s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-03-14 21:25:46 | INFO     | src.agent.workflow_runner | Retrying with code fix: Static Emergency Fallback (Attempt 12)
+2026-03-14 21:25:46 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:25:46 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:25:46 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:25:46 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:25:49 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 98, in <module>
+  File "<string>", line 74, in execute_research
+TypeError: evaluate_model() got an unexpected keyword argument 'y_test'
+
+2026-03-14 21:25:49 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 13.
+2026-03-14 21:25:50 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 21:25:50 | ERROR    | src.agent.llm_client | LLM call failed (groq): Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01khwjxmagewsb8j93t80zt0cc` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98783, Requested 1525. Please try again in 4m26.111999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-03-14 21:25:50 | INFO     | src.agent.workflow_runner | Retrying with code fix: Static Emergency Fallback (Attempt 13)
+2026-03-14 21:25:50 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:25:50 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:25:50 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:25:50 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:25:54 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 98, in <module>
+  File "<string>", line 74, in execute_research
+TypeError: evaluate_model() got an unexpected keyword argument 'y_test'
+
+2026-03-14 21:25:54 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 14.
+2026-03-14 21:25:54 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 21:25:54 | ERROR    | src.agent.llm_client | LLM call failed (groq): Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01khwjxmagewsb8j93t80zt0cc` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98779, Requested 1525. Please try again in 4m22.656s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-03-14 21:25:54 | INFO     | src.agent.workflow_runner | Retrying with code fix: Static Emergency Fallback (Attempt 14)
+2026-03-14 21:25:54 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:25:54 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:25:54 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:25:54 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:25:58 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 98, in <module>
+  File "<string>", line 74, in execute_research
+TypeError: evaluate_model() got an unexpected keyword argument 'y_test'
+
+2026-03-14 21:25:59 | WARNING  | tensorflow | From C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2026-03-14 21:26:45 | INFO     | src.agent.prompt_parser | Generating code for prompt: 請幫我建立lstm模型去預測
+2026-03-14 21:26:46 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 21:26:46 | INFO     | groq._base_client | Retrying request to /openai/v1/chat/completions in 18.000000 seconds
+2026-03-14 21:27:06 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 21:27:09 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:27:09 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:27:09 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:27:09 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:27:09 | WARNING  | tensorflow | TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-03-14 21:27:12 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 87, in <module>
+  File "<string>", line 63, in execute_research
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\models\evaluator.py", line 69, in evaluate_model
+    model = train_result["model"]
+            ~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'model'
+
+2026-03-14 21:27:12 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 1.
+2026-03-14 21:27:13 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 21:27:13 | ERROR    | src.agent.llm_client | LLM call failed (groq): Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01khwjxmagewsb8j93t80zt0cc` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99992, Requested 1448. Please try again in 20m44.159999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-03-14 21:27:13 | INFO     | src.agent.workflow_runner | Retrying with code fix: Static Emergency Fallback (Attempt 1)
+2026-03-14 21:27:13 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:27:13 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:27:13 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:27:13 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:27:16 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 87, in <module>
+  File "<string>", line 63, in execute_research
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\models\evaluator.py", line 69, in evaluate_model
+    model = train_result["model"]
+            ~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'model'
+
+2026-03-14 21:27:16 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 2.
+2026-03-14 21:27:17 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 21:27:17 | ERROR    | src.agent.llm_client | LLM call failed (groq): Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01khwjxmagewsb8j93t80zt0cc` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99988, Requested 1447. Please try again in 20m39.84s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-03-14 21:27:17 | INFO     | src.agent.workflow_runner | Retrying with code fix: Static Emergency Fallback (Attempt 2)
+2026-03-14 21:27:17 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:27:17 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:27:17 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:27:17 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:27:20 | WARNING  | tensorflow | 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x00000148046D58A0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2026-03-14 21:27:20 | WARNING  | tensorflow | 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x00000148046D58A0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2026-03-14 21:27:20 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 87, in <module>
+  File "<string>", line 63, in execute_research
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\models\evaluator.py", line 69, in evaluate_model
+    model = train_result["model"]
+            ~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'model'
+
+2026-03-14 21:27:20 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 3.
+2026-03-14 21:27:21 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 21:27:21 | ERROR    | src.agent.llm_client | LLM call failed (groq): Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01khwjxmagewsb8j93t80zt0cc` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99983, Requested 1447. Please try again in 20m35.52s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-03-14 21:27:21 | INFO     | src.agent.workflow_runner | Retrying with code fix: Static Emergency Fallback (Attempt 3)
+2026-03-14 21:27:21 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:27:21 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:27:21 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:27:21 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:27:24 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 87, in <module>
+  File "<string>", line 63, in execute_research
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\models\evaluator.py", line 69, in evaluate_model
+    model = train_result["model"]
+            ~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'model'
+
+2026-03-14 21:27:24 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 4.
+2026-03-14 21:27:25 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 21:27:25 | ERROR    | src.agent.llm_client | LLM call failed (groq): Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01khwjxmagewsb8j93t80zt0cc` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99979, Requested 1447. Please try again in 20m32.064s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-03-14 21:27:25 | INFO     | src.agent.workflow_runner | Retrying with code fix: Static Emergency Fallback (Attempt 4)
+2026-03-14 21:27:25 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:27:25 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:27:25 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:27:25 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:27:28 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 87, in <module>
+  File "<string>", line 63, in execute_research
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\models\evaluator.py", line 69, in evaluate_model
+    model = train_result["model"]
+            ~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'model'
+
+2026-03-14 21:27:28 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 5.
+2026-03-14 21:27:28 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 21:27:28 | ERROR    | src.agent.llm_client | LLM call failed (groq): Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01khwjxmagewsb8j93t80zt0cc` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99974, Requested 1447. Please try again in 20m27.744s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-03-14 21:27:28 | INFO     | src.agent.workflow_runner | Retrying with code fix: Static Emergency Fallback (Attempt 5)
+2026-03-14 21:27:28 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:27:28 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:27:28 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:27:28 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:27:32 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 87, in <module>
+  File "<string>", line 63, in execute_research
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\models\evaluator.py", line 69, in evaluate_model
+    model = train_result["model"]
+            ~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'model'
+
+2026-03-14 21:27:32 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 6.
+2026-03-14 21:27:32 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 21:27:32 | ERROR    | src.agent.llm_client | LLM call failed (groq): Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01khwjxmagewsb8j93t80zt0cc` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99969, Requested 1447. Please try again in 20m23.424s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-03-14 21:27:32 | INFO     | src.agent.workflow_runner | Retrying with code fix: Static Emergency Fallback (Attempt 6)
+2026-03-14 21:27:32 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:27:32 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:27:32 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:27:33 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:27:36 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 87, in <module>
+  File "<string>", line 63, in execute_research
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\models\evaluator.py", line 69, in evaluate_model
+    model = train_result["model"]
+            ~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'model'
+
+2026-03-14 21:27:36 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 7.
+2026-03-14 21:27:36 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 21:27:36 | ERROR    | src.agent.llm_client | LLM call failed (groq): Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01khwjxmagewsb8j93t80zt0cc` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99965, Requested 1447. Please try again in 20m19.968s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-03-14 21:27:36 | INFO     | src.agent.workflow_runner | Retrying with code fix: Static Emergency Fallback (Attempt 7)
+2026-03-14 21:27:36 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:27:36 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:27:36 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:27:36 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:27:40 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 87, in <module>
+  File "<string>", line 63, in execute_research
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\models\evaluator.py", line 69, in evaluate_model
+    model = train_result["model"]
+            ~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'model'
+
+2026-03-14 21:27:40 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 8.
+2026-03-14 21:27:40 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 21:27:40 | ERROR    | src.agent.llm_client | LLM call failed (groq): Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01khwjxmagewsb8j93t80zt0cc` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99960, Requested 1447. Please try again in 20m15.648s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-03-14 21:27:40 | INFO     | src.agent.workflow_runner | Retrying with code fix: Static Emergency Fallback (Attempt 8)
+2026-03-14 21:27:40 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:27:40 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:27:40 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:27:40 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:27:44 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 87, in <module>
+  File "<string>", line 63, in execute_research
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\models\evaluator.py", line 69, in evaluate_model
+    model = train_result["model"]
+            ~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'model'
+
+2026-03-14 21:27:44 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 9.
+2026-03-14 21:27:44 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 21:27:44 | ERROR    | src.agent.llm_client | LLM call failed (groq): Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01khwjxmagewsb8j93t80zt0cc` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99956, Requested 1447. Please try again in 20m12.192s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-03-14 21:27:44 | INFO     | src.agent.workflow_runner | Retrying with code fix: Static Emergency Fallback (Attempt 9)
+2026-03-14 21:27:44 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:27:44 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:27:44 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:27:44 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:27:48 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 87, in <module>
+  File "<string>", line 63, in execute_research
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\models\evaluator.py", line 69, in evaluate_model
+    model = train_result["model"]
+            ~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'model'
+
+2026-03-14 21:27:48 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 10.
+2026-03-14 21:27:48 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 21:27:48 | ERROR    | src.agent.llm_client | LLM call failed (groq): Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01khwjxmagewsb8j93t80zt0cc` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99951, Requested 1447. Please try again in 20m7.871999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-03-14 21:27:48 | INFO     | src.agent.workflow_runner | Retrying with code fix: Static Emergency Fallback (Attempt 10)
+2026-03-14 21:27:48 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:27:48 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:27:48 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:27:48 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:27:52 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 87, in <module>
+  File "<string>", line 63, in execute_research
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\models\evaluator.py", line 69, in evaluate_model
+    model = train_result["model"]
+            ~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'model'
+
+2026-03-14 21:27:52 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 11.
+2026-03-14 21:27:52 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 21:27:52 | ERROR    | src.agent.llm_client | LLM call failed (groq): Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01khwjxmagewsb8j93t80zt0cc` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99946, Requested 1447. Please try again in 20m3.552s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-03-14 21:27:52 | INFO     | src.agent.workflow_runner | Retrying with code fix: Static Emergency Fallback (Attempt 11)
+2026-03-14 21:27:52 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:27:52 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:27:52 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:27:52 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:27:56 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 87, in <module>
+  File "<string>", line 63, in execute_research
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\models\evaluator.py", line 69, in evaluate_model
+    model = train_result["model"]
+            ~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'model'
+
+2026-03-14 21:27:56 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 12.
+2026-03-14 21:27:56 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 21:27:56 | ERROR    | src.agent.llm_client | LLM call failed (groq): Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01khwjxmagewsb8j93t80zt0cc` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99942, Requested 1477. Please try again in 20m26.015999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-03-14 21:27:56 | INFO     | src.agent.workflow_runner | Retrying with code fix: Static Emergency Fallback (Attempt 12)
+2026-03-14 21:27:56 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:27:56 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:27:56 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:27:56 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:28:00 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 87, in <module>
+  File "<string>", line 63, in execute_research
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\models\evaluator.py", line 69, in evaluate_model
+    model = train_result["model"]
+            ~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'model'
+
+2026-03-14 21:28:00 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 13.
+2026-03-14 21:28:00 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 21:28:00 | ERROR    | src.agent.llm_client | LLM call failed (groq): Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01khwjxmagewsb8j93t80zt0cc` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99937, Requested 1477. Please try again in 20m21.696s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-03-14 21:28:00 | INFO     | src.agent.workflow_runner | Retrying with code fix: Static Emergency Fallback (Attempt 13)
+2026-03-14 21:28:00 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:28:00 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:28:00 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:28:00 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:28:03 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 87, in <module>
+  File "<string>", line 63, in execute_research
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\models\evaluator.py", line 69, in evaluate_model
+    model = train_result["model"]
+            ~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'model'
+
+2026-03-14 21:28:03 | INFO     | src.agent.auto_debugger | Attempting LLM repair for attempt 14.
+2026-03-14 21:28:04 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 21:28:04 | ERROR    | src.agent.llm_client | LLM call failed (groq): Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01khwjxmagewsb8j93t80zt0cc` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99933, Requested 1477. Please try again in 20m18.24s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-03-14 21:28:04 | INFO     | src.agent.workflow_runner | Retrying with code fix: Static Emergency Fallback (Attempt 14)
+2026-03-14 21:28:04 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2022-01-01_2022-12-31.csv
+2026-03-14 21:28:04 | INFO     | src.data.preprocess | Cleaned OHLCV: 246 rows remaining
+2026-03-14 21:28:04 | INFO     | src.data.loader | Loaded 246 rows for 2330 [2022-01-01 ~ 2022-12-31]
+2026-03-14 21:28:04 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:28:07 | WARNING  | src.agent.workflow_runner | Generated code execution failed:
+Traceback (most recent call last):
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\agent\workflow_runner.py", line 27, in run_agent_workflow
+    exec(current_code, exec_globals)
+  File "<string>", line 87, in <module>
+  File "<string>", line 63, in execute_research
+  File "C:\Users\alex\Desktop\AI Quant Research Sandbox for Taiwan Stocks\ai-quant-research-sandbox\src\models\evaluator.py", line 69, in evaluate_model
+    model = train_result["model"]
+            ~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'model'
+
+2026-03-14 21:28:08 | WARNING  | tensorflow | From C:\Users\alex\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2026-03-14 21:29:48 | INFO     | src.agent.prompt_parser | Generating code for prompt: 請幫我建立lstm模型去預測
+2026-03-14 21:29:49 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 21:29:49 | ERROR    | src.agent.llm_client | LLM call failed (groq): Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01khwjxmagewsb8j93t80zt0cc` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99811, Requested 1301. Please try again in 16m0.767999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-03-14 21:29:49 | INFO     | src.data.tw_stock_api | Downloading 2330.TW from 2025-03-14 to 2026-03-14
+2026-03-14 21:29:50 | INFO     | src.data.tw_stock_api | Cached to data\cache\2330.TW_2025-03-14_2026-03-14.csv
+2026-03-14 21:29:50 | INFO     | src.data.preprocess | Cleaned OHLCV: 242 rows remaining
+2026-03-14 21:29:50 | INFO     | src.data.loader | Loaded 242 rows for 2330 [2025-03-14 ~ 2026-03-14]
+2026-03-14 21:29:50 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:29:50 | INFO     | src.models.trainer | After dropping NaN: 178 rows (from 178)
+2026-03-14 21:29:50 | INFO     | src.models.trainer | Train: (142, 31) | Test: (36, 31)
+2026-03-14 21:29:50 | INFO     | src.models.trainer | Trained [linear] for task=[regression]
+2026-03-14 21:30:39 | INFO     | src.agent.prompt_parser | Generating code for prompt: 請幫我建立簡單的回歸模型去預測
+2026-03-14 21:30:39 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 21:30:39 | ERROR    | src.agent.llm_client | LLM call failed (groq): Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01khwjxmagewsb8j93t80zt0cc` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99753, Requested 1305. Please try again in 15m14.112s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-03-14 21:30:39 | INFO     | src.data.tw_stock_api | Loading from cache: data\cache\2330.TW_2025-03-14_2026-03-14.csv
+2026-03-14 21:30:39 | INFO     | src.data.preprocess | Cleaned OHLCV: 242 rows remaining
+2026-03-14 21:30:39 | INFO     | src.data.loader | Loaded 242 rows for 2330 [2025-03-14 ~ 2026-03-14]
+2026-03-14 21:30:39 | INFO     | src.data.feature_engineering | Feature engineering complete. Total columns: 37
+2026-03-14 21:30:39 | INFO     | src.models.trainer | After dropping NaN: 178 rows (from 178)
+2026-03-14 21:30:39 | INFO     | src.models.trainer | Train: (142, 31) | Test: (36, 31)
+2026-03-14 21:30:39 | INFO     | src.models.trainer | Trained [linear] for task=[regression]
