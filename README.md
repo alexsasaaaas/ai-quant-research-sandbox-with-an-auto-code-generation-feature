@@ -1,6 +1,8 @@
 # 🤖 AI Quant Research Sandbox  
 ### 從研究想法到預測模型、策略回測與 AI 報告的一體化研究沙盒
 
+線上 demo 網址：https://ai-quant-research-sandbox-with-an-auto-code-generation-feature.streamlit.app/
+
 > 一個結合 **機器學習預測、量化回測與 AI 報告生成** 的台股研究平台，用來將分散的研究步驟整合成可重複、可展示的研究流程。
 
 > [!IMPORTANT]
