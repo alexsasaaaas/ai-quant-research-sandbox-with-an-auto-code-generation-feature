@@ -129,7 +129,17 @@ def sidebar_stock_selector():
     else:
         ticker = ticker_input
         
-    start_date = st.sidebar.date_input("起始日期", datetime.now() - timedelta(days=365*3))
-    end_date = st.sidebar.date_input("結束日期", datetime.now())
+    start_date = st.sidebar.date_input(
+        "起始日期", 
+        datetime.now() - timedelta(days=365*3),
+        min_value=datetime(2000, 1, 1),
+        max_value=datetime.now()
+    )
+    end_date = st.sidebar.date_input(
+        "結束日期", 
+        datetime.now(),
+        min_value=datetime(2000, 1, 1),
+        max_value=datetime.now()
+    )
     
     return ticker, str(start_date), str(end_date)
